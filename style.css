@@ -55,6 +55,7 @@ body {
 /*Profile*/
 #profile img {
   width: 112px;
+  border-radius: 50%;
 }
 
 #profile p {
@@ -89,8 +90,8 @@ body {
   animation: slide-in 0.2s forwards;
 }
 
-#switch button:hover{
-outline: 8px solid var(--highlight-color);
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {

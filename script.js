@@ -10,14 +10,14 @@ function toggleMode() {
     img.setAttribute("src", "./assets/avatar-light.png")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos escuros e casaco preto, sem barba e fundo colorido"
+      "Foto de Felipe Boross Carvalho, com blusa cinza, cobrindo os olhos por causa da luz."
     )
   } else {
     //se não estive light mode, add img padrão
     img.setAttribute("src", "./assets/avatar.png")
     img.setAttribute(
       "alt",
-      "Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo"
+      "Foto de Felipe Boross Carvalho, com blusa cinza, sorrindo."
     )
   }
 }
